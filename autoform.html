@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      </head>
+    
+    <style>
+        body {
+          background-image: url('https://wonderfulengineering.com/wp-content/uploads/2013/12/porsche-custom-bike-wallpapers-porsche-custom-bike-stock-photos_1920x1080.jpg');
+          background-repeat:no-repeat;
+          background-size: cover;
+          height: 100vh;
+        }
+    form {
+        
+        width: 45%;
+        margin: auto auto;
+        text-align: center;
+        padding: 20px;
+    }
+    label[for="Email_Id"]{
+      margin-left: 20px;
+    }
+label:focus {
+	outline: none !important;
+}
+
+label:hover {
+	text-decoration: none;
+  color: #d33f8d;
+}
+legend:hover {
+	text-decoration: none;
+  color: #d33f8d;
+}
+
+button:hover {
+	cursor: pointer;
+}
+body, html {
+	height: 100%;
+	font-family: Poppins-Regular, sans-serif;
+}
+label:link {
+  background-color: yellow;
+}
+
+label:visited {
+  background-color: cyan;
+}
+
+label:hover {
+  background-color: lightgreen;
+}
+
+label:active {
+  background-color: hotpink;
+} 
+    </style>
+<body>
+    <form method="post" action="autonew.php" >
+    <fieldset>
+     <legend style="font-size:100%;">AUTO EXPO 2020:</legend><br>
+     <label for="First_name">First_name:</label>
+     <input type="text" name="First_name"><br><br>
+     <label for="Last_name">Last_name:</label>
+     <input type="text" name="Last_name"><br><br>
+     <label for="Email_Id">Email_Id:</label>
+     <input type="email" name="Email_Id"><br><br>
+     <label for="contact_no">contact_no:</label>
+     <input type="text" name="contact_no"><br><br>
+    
+     
+     <button>SUBMIT</button>
+    </fieldset>
+   </form>
+<br>
+
+</form>
+</body>
+</html>

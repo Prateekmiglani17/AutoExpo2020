@@ -1,0 +1,215 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+<style>
+  body{
+    margin: 0px;
+    padding: 0px;
+    background: #000000;
+  }
+  ul.sticky {
+  display: inline-block;
+  margin: 0px;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  width: 100vw;
+  height: 10vh;
+  z-index: 1;
+  }
+  ul li.brand{
+    float: right;
+    padding-top: 0px;
+    margin-right: 25px;
+  }
+    div.car {
+  background-image: url('https://images.unsplash.com/photo-1570280406792-bf58b7c59247?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1043&q=80');
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin-top: 10vh;
+  height: 95vh;
+}
+.car p:hover{
+  color:yellow;
+}
+div.bike {
+  background-image: url('https://images.unsplash.com/photo-1558981403-c5f9899a28bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100vh;
+  margin-top: 0px;
+
+}
+ul.pagination li {display: inline;}
+ul.pagination li a {
+    color: WHITE;
+    float: left;
+    padding: 8px 16px;
+    margin-top: 14px;
+    text-decoration: none;
+}
+
+ul.pagination li a:hover{
+  color: blue;
+}
+
+p,pre,h2,div{
+    color:white;
+}
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 1000px;
+    height: 200px;
+    
+}
+.flex-item {
+   
+    width: 115px;
+    height: 100px;
+    margin: 10px;
+}
+h2,ul,div:hover {
+  color:white;
+}
+.bike h2{
+  margin-top: 0px;
+}
+div a:link {
+  color: red;
+}
+
+
+div a:visited {
+  color:white;
+}
+
+
+div a:hover {
+  color: hotpink;
+}
+
+
+div a:active {
+  color: blue;
+}
+@keyframes marquee {
+  0% {
+    transform: translate(0%, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+  color:white;
+
+}
+h1:hover{
+  color:chartreuse;
+}
+div.googlemap {
+  background-image: url("map.PNG");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100vh;
+  margin-top: 0px;
+
+}
+    </style>
+    <body>
+        
+        <ul class="pagination sticky">
+            <li ><a href="http://www.autoexpo-themotorshow.in/">HOME</a></li>
+            <li ><a href="http://www.autoexpo-themotorshow.in/about-us/">ABOUT-US</a></li>
+            <li ><a href="http://www.autoexpo-themotorshow.in/general-info/">GENERAL INFO</a></li>
+            <li ><a href="http://www.autoexpo-themotorshow.in/venue/">VENUE</a></li>
+            <li ><a href="http://www.autoexpo-themotorshow.in/gallery/">GALARY</a></li>
+            <li ><a href="http://192.168.64.2/autoform.html">CONTACT-US</a></li>
+            <li class="brand"><img src="https://akm-img-a-in.tosshub.com/sites/btmt/images/stories/auto_expo_2020_logo_505_030220041222.jpg?size=1200:675" style="width:100px;height:55px;"></li>
+          </ul>
+        <div class="car">
+        <p  class="sticky" style="font-size:3vw" align="center">WELCOME TO AUTO EXPO 2020 <br><i><u>(DRIVE THE CHANGE)</u></i></p>
+        <marquee direction="left">
+        <pre>Auto Expo 2020 was billed as one of the world’s premier auto shows.<br>A signature event, that witnessed the best minds coming together on a single platform to showcases all that was best in the automotive world, in terms of products, technologies, concepts and trends.</pre></marquee>
+        <br><br>
+        <h2><u>TOP CONCEPT CARS 2020:</u></h2>
+        <br><marquee direction="left" scrollamount="12" loop="infinite" behavior="scroll">
+        <div class="flex-container">
+            
+        <div><a href="https://www.cardekho.com/audi/q8"><img class="flex-item" src="IMG_6849 (3).PNG" ><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AUDI Q8&nbsp</a></div>
+        <div><a href="https://www.cardekho.com/bmw/x7"><img class="flex-item" src="IMG-6865.PNG"><br>&nbsp;&nbsp;&nbsp;BMW - X7</a></div>
+        <div><a href="https://www.cardekho.com/kia/seltos"><img class="flex-item" src="IMG-6859.PNG"><br>&nbsp;&nbsp;&nbsp;KIA SELTOS</a></div>
+        <div><a href="https://www.cardekho.com/carmodels/Ford/Ford_Ecosport"><img class="flex-item" src="IMG-6868.PNG"><br>FORD ECOSPORT</a></div>
+        <div><a href="https://www.cardekho.com/hyundai/creta"><img class="flex-item" src="IMG-6909.PNG"><br>HYUNDAI CRETA</a> </div>
+        <div><a href="https://www.cardekho.com/honda/civic"><img class="flex-item" src="IMG-6912.PNG"><br>HONDA CIVIC</a></div>
+        <div><a href="https://www.cardekho.com/hyundai/venue"><img class="flex-item" src="IMG-6878.PNG"><br>HYUNDAI VENUE</a></div>
+        <div><a href="https://www.cardekho.com/used-volkswagen-passat+diesel+cars+in+new-delhi"><img class="flex-item" src="IMG-6907.PNG"><br>  &nbsp VOLKSWAGON PASSAT</a></div>
+        
+      </marquee>
+        </div>
+        <p>The Auto Expo, over the last several years has grown tremendously in size and transformed itself into a global event. Owing to the tremendous growth of Auto Expo — Asia's largest automotive show jointly organised by Automotive Component Manufacturers Association of India (ACMA), Confederation of Indian Industry (CII) and Society of Indian Automobile Manufacturers (SIAM) is now seen at two different venues with clear focus on Automobiles (Auto Expo 2020— Vehicles) and Auto Components (Auto Expo 2020 -Components).</p>
+        <div class="bike">
+        <h2><u>TOP CONCEPT BIKES 2020:</u></h2>
+        <br><marquee direction="left" scrollamount="12" loop="infinite" behavior="scroll">
+        <div class="flex-container">
+            
+  <div><a href="https://www.bikedekho.com/ktm/rc-200"><img class="flex-item" src="IMG-6902.PNG" ><br>KTM RC 200 </a></div>
+  <div><a href="https://www.bikedekho.com/yamaha/yzf-r1"><img class="flex-item" src="IMG-6897.PNG"><br>YAMAHA YZF R1 </a></div>
+  <div><a href="https://www.bikedekho.com/harley-davidson/fat-boy"><img class="flex-item" src="IMG-6895.PNG"><br>HARLEY DAVIDSON &nbsp </a></div>
+  <div><a href="https://www.bikedekho.com/benelli/leoncino"><img class="flex-item" src="IMG-6893.PNG"><br> BENELLI LEONCINO &nbsp</a></div>
+  <div><a href="https://www.bikedekho.com/triumph/thunderbird"><img class="flex-item" src="IMG-6893.PNG"><br>TRIUMPH TBIRD &nbsp</a> </div>
+  <div><a href="https://www.bikedekho.com/indian/scout-sixty"><img class="flex-item" src="IMG-6891.PNG"><br> IND SCOUT 60 &nbsp</a></div>
+  <div><a href="https://www.bikedekho.com/ducati/panigale-v2"><img class="flex-item" src="IMG-6915.PNG"><br>DUCATI PANIGALE &nbsp </a></div>
+  <div><a href="https://www.bikedekho.com/royal-enfield/classic-350"><img class="flex-item" src="IMG-6884.PNG"><br>  &nbsp R.E BULLET 350 </a></div>
+        </marquee>
+        <h1> <u> ORGANISERS</u></h1>
+        <p>The Automotive Component Manufacturers Association of India (<b>ACMA</b>) is the apex body representing the interest of the Indian Auto Component Industry. Its membership of over 800 manufacturers contributes more than 90% of the auto component industry’s turnover in the organised sector. ACMA is an ISO 9001:2008 Certified Association.</p><br>
+        <p>The Confederation of Indian Industry (<b>CII</b>) works to create and sustain an environment conducive to the development of India, partnering industry, Government, and civil society, through advisory and consultative processes.</p><br>
+        <p>The Society of Indian Automobile Manufacturers (<b>SIAM</b>) is a not-for-profit apex national body representing all major vehicle and vehicular engine manufacturers in India.</p>
+        </div>
+        <br>
+        <br>
+        <h1>COMING SOON IN:</h1>
+        <h1 id="demo" style="background-color:Tomato;"></h1>
+        <iframe width="1150" height="315" src="https://www.youtube.com/embed/ZLkn3Jy6r2Q?autoplay=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <div class="googleMap" style="width:100%;height:400px;" >
+          <a href="https://www.google.com/maps/place/India+Expo+Mart+Cir,+Knowledge+Park+II,+Greater+Noida,+Uttar+Pradesh+201310/@28.2137385,77.2737587,10z/data=!4m5!3m4!1s0x390cc1dbf302d055:0x88101ff020a385e5!8m2!3d28.4590423!4d77.4994648">
+            <img src="map.PNG" >
+          </div>
+
+
+<script>
+var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+var x = setInterval(function() {
+  var now = new Date().getTime();
+  var distance = countDownDate - now;
+
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+  document.getElementById("demo").innerHTML = days + "D " + hours + "H "+ minutes + "M " + seconds + "S ";
+    
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>   
+
+        
+    </body>
+    </html>
+
+    
+            
+            
+            
